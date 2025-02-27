@@ -1,0 +1,22 @@
+.hero {
+    text-align: center;
+    padding: 50px;
+  }
+  
+.hero h1 {
+    font-family: "LibreCaslonCondensed-Medium", sans-serif;
+    font-size: var(--h1-size);
+    letter-spacing: -0.05em;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-family: "UncutSans-Regular";
+    font-size: var(--body-size);
+    margin-top: 0;
+}
+
+
+
+  

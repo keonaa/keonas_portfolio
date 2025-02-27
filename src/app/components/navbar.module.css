@@ -1,0 +1,38 @@
+.navbar {
+    width: 100%; /* Navbar stays full-width */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    background-color: var(--bg-white);
+    border-bottom: 1px solid var(--black);
+  }
+  
+  .navContainer {
+    width: min(76vw, 1460px); /* Keeps the width proportional, maxing at 1460px */
+    margin: 0 auto; /* Centers the content inside the full-width navbar */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    height: auto;
+    width: clamp(5rem, 8vw, 7rem); /* Responsive logo size */
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .navLinks li a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+    font-family: "UncutSans-Regular";
+    font-size: var(--body-size);
+    text-transform: uppercase;
+  }
+  
