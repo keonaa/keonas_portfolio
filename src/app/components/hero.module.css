@@ -17,6 +17,54 @@
     margin-top: 0;
 }
 
+.chipsContainer {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
 
+.chip {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid var(--black);
+    font-family: "UncutSans-Regular";
+    font-size: var(--caption-size);
+    text-transform: uppercase;
+}
 
+.scrollContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; 
+    margin-top: 40px;
+}
+
+.scrollIndicator {
+    font-size: 5px;
+}
   
+.scrollText {
+    font-size: var(--body-size);
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+  
+.scrollArrow {
+    width: 1.3rem;
+    height: auto;
+    animation: floatUpDown 2s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+    0%, 100% {
+        transform: translateY(-3px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+}
