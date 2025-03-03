@@ -1,3 +1,4 @@
+import FizzleCard from "./components/FizzleCard";
 import Hero from "./components/Hero";
 import styles from "./page.module.css";
 
@@ -21,7 +22,7 @@ export default function Home() {
         <div className={styles.featuredProjectsContent}>
           <h2 className={styles.featuredProjectsTitle}>Featured Projects</h2>
           <div className={styles.cards}>
-
+            <FizzleCard />
           </div>
         </div>
       </section>

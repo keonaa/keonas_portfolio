@@ -1,0 +1,82 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: var(--bg-white);
+    border: 1px solid var(--black);
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px; 
+    padding-left: 50px;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card:hover {
+    background: var(--purple);
+    color: var(--white-text); 
+}
+
+.card:hover .title,
+.card:hover .description {
+    color: var(--white-text); 
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 50%;
+}
+
+.title {
+    font-family: "LibreCaslonCondensed-Medium", serif;
+    font-size: var(--h3-size);
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 20px; 
+    transition: color 0.3s ease-in-out;
+}
+
+.description {
+    font-family: "UncutSans-Regular", sans-serif;
+    font-size: var(--caption-size);
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.7;
+    text-align: left;
+    max-width: 450px;
+    margin: 0;
+    transition: color 0.3s ease-in-out;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex: 1;
+    max-width: 50%;
+    margin-left: 10px; 
+}
+
+.fizzleImage {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    margin: 0;
+    transition: filter 0.3s ease-in-out;
+}
+

@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className={styles.hero}>
-      <h1><h1>Hey! I&apos;m Keona</h1></h1>
+      <h1>Hey! I&apos;m Keona</h1>
       <p>A MULTIDISCIPLINARY DIGITAL DESIGNER, SPECIALIZING IN UX/UI DESIGN.</p>
       
       <div className={styles.chipsContainer}>
