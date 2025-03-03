@@ -1,0 +1,44 @@
+/* Wrapper for the ticker */
+.tickerWrapper {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    white-space: nowrap;
+}
+
+/* The moving container */
+.ticker {
+    display: flex;
+    width: max-content;
+    align-items: center;
+    animation: scrollLeft 30s linear infinite;
+}
+
+/* Ensuring images stay in proportion */
+.tickerContent {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between images */
+}
+
+/* Label styling */
+.label {
+    height: 100%; /* Maintain aspect ratio */
+    max-height: 400px; /* Adjust as needed */
+    width: auto;
+    object-fit: fit;
+    flex-shrink: 0;
+    object-fit: contain; /* Prevent cropping */
+}
+
+
+@keyframes scrollLeft {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}

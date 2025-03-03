@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./FizzleCard.module.css";
@@ -17,7 +19,7 @@ export default function FizzleCard() {
             src="/portfolio_harmony_can.png"
             alt="Fizzle Cans"
             width={350}
-            height={420} 
+            height={420}
             className={styles.fizzleImage}
           />
         </div>
