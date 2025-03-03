@@ -6,7 +6,6 @@
     margin: 0 auto;
 }
 
-/* Hero Section */
 .heroSection {
     display: flex;
     flex-direction: column;
@@ -24,7 +23,6 @@
     margin-bottom: 0px;
 }
 
-/* Tags */
 .tags {
     font-family: "UncutSans-Regular", sans-serif;
     text-transform: uppercase;
@@ -41,7 +39,6 @@
     font-size: var(--caption-size);
 }
 
-/* Featured Image */
 .heroImage {
     width: 100%;
     max-width: 76vw;
@@ -59,7 +56,6 @@
     object-fit: cover;
 }
 
-/* About Section */
 .aboutContainer {
     width: 100%;
     max-width: 1100px;
@@ -74,7 +70,6 @@
     text-align: left;
 }
 
-/* Two-column layout */
 .aboutContent {
     display: flex;
     justify-content: space-between;
@@ -83,7 +78,6 @@
     gap: 60px;
 }
 
-/* Left Column */
 .aboutDetails {
     flex: 1;
     max-width: 220px;
@@ -112,7 +106,6 @@
     margin-bottom: 10px;
 }
 
-/* Right Column */
 .aboutText {
     flex: 2;
     max-width: 700px;

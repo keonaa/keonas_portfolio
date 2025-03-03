@@ -43,6 +43,8 @@
 .featuredProjectsTitle {
     font-family: "LibreCaslonCondensed-Medium", serif;
     font-size: var(--h2-size);
+    font-weight: 400;
+    letter-spacing: -0.05em; 
 }
 
 .cards {

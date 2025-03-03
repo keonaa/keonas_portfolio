@@ -30,7 +30,6 @@ export default function Fizzle() {
         <div className={styles.aboutContainer}>
             <h3 className={styles.aboutTitle}>About</h3>
             <div className={styles.aboutContent}>
-                    {/* Left Column (Timeline, Tools) */}
                 <div className={styles.aboutDetails}>
                     <div className={styles.detailBlock}>
                         <h3 className={styles.detailHeading}>Timeline</h3>
@@ -49,6 +48,7 @@ export default function Fizzle() {
                 </div>
             </div>
         </div>
+        {/* Packaging Design Section */}
         <div className={styles.aboutContainer}>
             <h3 className={styles.aboutTitle}>The Packaging Design</h3>
         </div>

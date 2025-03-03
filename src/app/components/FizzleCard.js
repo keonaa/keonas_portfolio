@@ -16,7 +16,7 @@ export default function FizzleCard() {
         </div>
         <div className={styles.imageContainer}>
           <Image
-            src="/portfolio_harmony_can.png"
+            src="/Portfolio_harmony_can.png"
             alt="Fizzle Cans"
             width={350}
             height={420}

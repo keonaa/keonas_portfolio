@@ -5,12 +5,10 @@ export default function FizzleCarousel() {
     <div className={styles.tickerWrapper}>
       <div className={styles.ticker}>
         <div className={styles.tickerContent}>
-          {/* Packaging Labels */}
           <img src="/cherry_dieline.png" alt="Label 1" className={styles.label} />
           <img src="/blueberry_dieline.png" alt="Label 2" className={styles.label} />
           <img src="/orange_dieline.png" alt="Label 3" className={styles.label} />
           
-          {/* Duplicate for smooth looping */}
           <img src="/cherry_dieline.png" alt="Label 1" className={styles.label} />
           <img src="/blueberry_dieline.png" alt="Label 2" className={styles.label} />
           <img src="/orange_dieline.png" alt="Label 3" className={styles.label} />
