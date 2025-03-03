@@ -66,6 +66,7 @@
     font-family: "LibreCaslonCondensed-Medium", serif;
     font-size: var(--h3-size);
     font-weight: 400;
+    letter-spacing: -0.05em; 
     margin-bottom: 10px;
     text-align: left;
 }
