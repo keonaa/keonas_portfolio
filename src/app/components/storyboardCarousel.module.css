@@ -1,0 +1,46 @@
+.tickerWrapper {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+.ticker {
+    display: flex;
+    width: max-content;
+    align-items: center;
+    white-space: nowrap;
+    animation: scrollLeft 98s linear infinite;
+}
+
+.tickerContent {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    flex-shrink: 0;
+}
+
+.tickerContent img {
+    border: solid 1px var(--black);
+    border-radius: 10px;
+}
+
+.label {
+    height: 100%; 
+    max-height: 400px; 
+    width: auto;
+    object-fit: fit;
+    flex-shrink: 0;
+    object-fit: contain; 
+}
+
+
+@keyframes scrollLeft {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}

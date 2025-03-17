@@ -1,3 +1,90 @@
-.contact h2 {
-    font-family: "LibreCaslonCondensed-Medium", sans-serif;
+.contactPage {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 5em;
+    text-align: center;
+}
+
+.title {
+    font-family: "LibreCaslonCondensed-Medium", serif;
+    font-size: 4.7rem;
+    letter-spacing: -0.05em; 
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-family: "UncutSans-Regular", sans-serif;
+    text-transform: uppercase;
+    font-size: var(--h5-size);
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formGroup {
+    display: flex;
+    gap: 10px; 
+    justify-content: space-between;
+}
+
+.inputWrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-family: "UncutSans-Regular", sans-serif;
+    font-size: var(--body-size);
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.input {
+    width: 93%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: var(--caption-size);
+    font-family: "UncutSans-Regular", sans-serif;
+}
+
+.textareaWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea {
+    width: 96%;
+    height: 120px;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: var(--caption-size);
+    font-family: "UncutSans-Regular", sans-serif;
+}
+
+.button {
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 14px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-family: "UncutSans-Regular", sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: rgb(50, 50, 50);
 }

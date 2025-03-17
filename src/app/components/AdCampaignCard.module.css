@@ -1,26 +1,18 @@
-.wrapper {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
 .card {
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
-    background: var(--bg-white);
-    border: 1px solid var(--black);
+    align-items: start;
     border-radius: 10px;
     padding-top: 50px;
     padding-right: 50px;
     padding-bottom: 0px; 
     padding-left: 50px;
-    width: 100%;
+    background: var(--white);
+    border: 1px solid var(--black);
     max-width: 1100px;
-    margin: 0;
+    margin: auto;
+    gap: 20px;
     transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
-    cursor: pointer;
-    text-decoration: none;
 }
 
 .card:hover {
@@ -40,7 +32,6 @@
     font-family: "LibreCaslonCondensed-Medium", serif;
     font-size: var(--h3-size);
     font-weight: 400;
-    text-align: left;
     margin-top: 0;
     margin-bottom: 20px; 
 }
@@ -54,22 +45,22 @@
     text-align: left;
     max-width: 450px;
     margin: 0;
-
 }
 
 .imageContainer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
     flex: 1;
-    max-width: 50%;
-    margin-left: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 40%;
 }
 
-.fizzleImage {
-    width: 100%;
+.screenImage {
+    width: 90%;
     height: auto;
-    max-width: 350px;
-    margin: 0;
+    display: block;
+    margin-top: -50px !important;
+    padding-bottom: 0.7em
 }
+
 

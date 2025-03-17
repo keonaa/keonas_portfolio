@@ -1,4 +1,5 @@
 import FizzleCard from "./components/FizzleCard";
+import AdCampaignCard from "./components/AdCampaignCard";
 import Hero from "./components/Hero";
 import styles from "./page.module.css";
 
@@ -23,6 +24,7 @@ export default function Home() {
           <h2 className={styles.featuredProjectsTitle}>Featured Projects</h2>
           <div className={styles.cards}>
             <FizzleCard />
+            <AdCampaignCard />
           </div>
         </div>
       </section>
