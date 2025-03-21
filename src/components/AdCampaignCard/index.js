@@ -15,7 +15,7 @@ export default function AdCampaignCard() {
         </div>
         <div className={styles.imageContainer}>
           <Image
-            src="/Porfolio_harmony_ad.png"
+            src="/images/Porfolio_harmony_ad.png"
             alt="Harmony Ad Campaign"
             width={547}
             height={468}
