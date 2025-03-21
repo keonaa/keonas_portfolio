@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export default function AdCampaignCard() {
   return (
-    <Link href="../adCampaign">
-      <div className={styles.card}>
+    <div className={styles.wrapper}>
+      <Link href="../adCampaign" className={styles.card}>
         <div className={styles.cardContent}>
           <h2 className={styles.title}>Harmony - Ad Campaign</h2>
           <p className={styles.description}>
@@ -22,7 +22,7 @@ export default function AdCampaignCard() {
             className= {styles.screenImage}
           />
         </div>
-      </div>
-    </Link>
+      </Link>
+    </div>
   );
 }
