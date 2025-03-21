@@ -1,5 +1,6 @@
 import styles from "@/styles/adCampaign.module.css";
 import StoryboardCarousel from "@/components/StoryBoardCarousel";
+import Chips from "@/components/Chips";
 
 export default function HarmonyAdCampaign() {
     return (
@@ -8,9 +9,7 @@ export default function HarmonyAdCampaign() {
             <div className={styles.heroSection}>
                 <h2 className={styles.title}>Harmony - Ad Campaign</h2>
                 <div className={styles.tags}>
-                    <span className={styles.tag}>VIDEOGRAPHY</span>
-                    <span className={styles.tag}>VIDEO EDITING</span>
-                    <span className={styles.tag}>ADVERTISING</span>
+                    <Chips items={["videography", "video editing", "advertising"]} />
                 </div>
                 <div className={styles.videoContainer}>
                 <iframe 

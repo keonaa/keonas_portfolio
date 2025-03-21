@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className={styles.navContainer}>
         <Link href="/">
           <Image
-            src="/keona_logo.svg"
+            src="/images/keona_logo.svg"
             alt="Keona Logo"
             className={styles.logo}
             width={100} 

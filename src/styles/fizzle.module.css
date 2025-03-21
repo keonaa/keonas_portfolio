@@ -24,19 +24,10 @@
 }
 
 .tags {
-    font-family: "UncutSans-Regular", sans-serif;
-    text-transform: uppercase;
     display: flex;
     gap: 10px;
     justify-content: center;
     margin-top: 5px;
-}
-
-.tag {
-    border: 1px solid var(--black);
-    padding: 13px 20px;
-    border-radius: 30px;
-    font-size: var(--caption-size);
 }
 
 .heroImage {

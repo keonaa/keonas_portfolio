@@ -1,6 +1,7 @@
 import styles from "@/styles/fizzle.module.css";
 import Image from "next/image";
 import FizzleCarousel from "@/components/FizzleCarousel";
+import Chips from "@/components/Chips";
 
 
 export default function Fizzle() {
@@ -10,8 +11,7 @@ export default function Fizzle() {
       <div className={styles.heroSection}>
         <h2 className={styles.title}>Fizzle!</h2>
         <div className={styles.tags}>
-          <span className={styles.tag}>Graphic Design</span>
-          <span className={styles.tag}>Branding</span>
+          <Chips items={["graphic design", "branding",]} />
         </div>
       </div>
 

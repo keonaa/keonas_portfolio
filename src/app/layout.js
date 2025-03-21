@@ -6,7 +6,7 @@ export const metadata = {
   title: "Keona Aguilar",
   description: "A portfolio showcasing Keona's work",
   icons: {
-    icon: "/keona_favicon.svg", 
+    icon: "/images/keona_favicon.svg", 
   },
 };
 

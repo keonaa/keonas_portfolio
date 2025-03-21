@@ -25,16 +25,6 @@
     padding-bottom: 40px;
 }
 
-.chip {
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: 1px solid var(--black);
-    font-family: "UncutSans-Regular";
-    font-size: var(--caption-size);
-    text-transform: uppercase;
-}
-
 .scrollContainer {
     display: flex;
     flex-direction: column;

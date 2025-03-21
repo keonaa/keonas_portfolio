@@ -1,5 +1,6 @@
 import styles from "./hero.module.css";
 import Image from "next/image";
+import Chips from "../Chips";
 
 export default function Hero() {
   return (
@@ -8,10 +9,7 @@ export default function Hero() {
       <p>A MULTIDISCIPLINARY DIGITAL DESIGNER, SPECIALIZING IN UX/UI DESIGN.</p>
       
       <div className={styles.chipsContainer}>
-        <span className={styles.chip}>UX/UI DESIGNER</span>
-        <span className={styles.chip}>GRAPHIC DESIGN</span>
-        <span className={styles.chip}>VIDEO EDITOR</span>
-        <span className={styles.chip}>STORYTELLER</span>
+        <Chips items={["UX/UI DESIGNER", "GRAPHIC DESIGN", "VIDEO EDITOR", "STORYTELLER"]} />
       </div>
 
       <div className={styles.scrollContainer}>
