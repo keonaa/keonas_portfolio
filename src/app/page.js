@@ -1,5 +1,6 @@
 import FizzleCard from "../components/FizzleCard";
 import AdCampaignCard from "../components/AdCampaignCard";
+import MilkCard from "@/components/Milk";
 import Hero from "../components/Hero";
 import styles from "../styles/page.module.css";
 
@@ -25,6 +26,7 @@ export default function Home() {
           <div className={styles.cards}>
             <FizzleCard />
             <AdCampaignCard />
+            <MilkCard />
           </div>
         </div>
       </section>
