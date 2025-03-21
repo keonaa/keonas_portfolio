@@ -1,6 +1,6 @@
-import styles from "./fizzle.module.css";
+import styles from "@/styles/fizzle.module.css";
 import Image from "next/image";
-import FizzleCarousel from "../components/FizzleCarousel";
+import FizzleCarousel from "@/components/FizzleCarousel";
 
 
 export default function Fizzle() {

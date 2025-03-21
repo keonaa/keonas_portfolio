@@ -1,5 +1,5 @@
-import styles from "./adCampaign.module.css";
-import StoryboardCarousel from "../components/storyboardCarousel";
+import styles from "@/styles/adCampaign.module.css";
+import StoryboardCarousel from "@/components/StoryBoardCarousel";
 
 export default function HarmonyAdCampaign() {
     return (
@@ -17,7 +17,7 @@ export default function HarmonyAdCampaign() {
                 src="https://www.youtube.com/embed/FxGQdTEf-u4?si=Icn1xTmrj3F37NQU" 
                 title="YouTube video player" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowfullscreen></iframe>
+                allowFullScreen></iframe>
                 </div>
             </div>
 

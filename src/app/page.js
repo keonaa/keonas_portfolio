@@ -1,7 +1,7 @@
-import FizzleCard from "./components/FizzleCard";
-import AdCampaignCard from "./components/AdCampaignCard";
-import Hero from "./components/Hero";
-import styles from "./page.module.css";
+import FizzleCard from "../components/FizzleCard";
+import AdCampaignCard from "../components/AdCampaignCard";
+import Hero from "../components/Hero";
+import styles from "../styles/page.module.css";
 
 
 export default function Home() {

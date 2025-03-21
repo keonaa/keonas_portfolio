@@ -1,6 +1,6 @@
-import styles from "./project.module.css";
-import FizzleCard from "../components/FizzleCard";
-import AdCampaignCard from "../components/AdCampaignCard";
+import styles from "@/styles/project.module.css";
+import FizzleCard from "@/components/FizzleCard";
+import AdCampaignCard from "@/components/AdCampaignCard"
 
 export default function Projects() {
     return(

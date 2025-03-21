@@ -17,7 +17,7 @@ export default function Hero() {
       <div className={styles.scrollContainer}>
         <p className={styles.scrollText}>SCROLL</p>
         <Image 
-          src="/scroll_arrow.svg"
+          src="/images/scroll_arrow.svg"
           alt="Scroll Arrow"
           width={30}
           height={30} 

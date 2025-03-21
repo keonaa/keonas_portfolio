@@ -13,13 +13,13 @@ export default function Navbar() {
             src="/keona_logo.svg"
             alt="Keona Logo"
             className={styles.logo}
-            width={100} // Default width for fallback
-            height={40} // Default height for fallback
+            width={100} 
+            height={40} 
           />
         </Link>
         <ul className={styles.navLinks}>
           <li>
-            <Link href="/projects">Projects</Link>
+            <Link href="/project">Projects</Link>
           </li>
           <li>
             <Link href="/about">About</Link>
