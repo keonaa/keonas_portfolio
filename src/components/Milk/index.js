@@ -2,12 +2,12 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import styles from "./Milk.module.css";
+import styles from "./MilkCard.module.css";
 
 export default function MilkCard() {
   return (
     <div className={styles.wrapper}>
-      <Link href="/milk" className={styles.card}>
+      <Link href="../milk" className={styles.card}>
         <div className={styles.cardContent}>
           <h2 className={styles.title}>Which Milk is Best for You?</h2>
           <p className={styles.description}>

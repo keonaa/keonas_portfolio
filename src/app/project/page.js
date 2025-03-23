@@ -1,6 +1,7 @@
 import styles from "@/styles/project.module.css";
 import FizzleCard from "@/components/FizzleCard";
 import AdCampaignCard from "@/components/AdCampaignCard"
+import MilkCard from "@/components/Milk";
 
 export default function Projects() {
     return(
@@ -9,6 +10,7 @@ export default function Projects() {
             <div className={styles.cards}>
                 <FizzleCard />
                 <AdCampaignCard />
+                <MilkCard />
             </div>
         </section>
     );
