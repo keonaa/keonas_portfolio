@@ -9,7 +9,7 @@ export default function AboutPage() {
       <div className={styles.heroSection}>
         <h1 className={styles.title}>About Me</h1>
         <div className={styles.chipGroup}>
-          <Chips items={["Night Owl", "Sunset Chaser", "Marvel Enthusiast"]} />
+          <Chips items={["Night Owl", "enfj", "yapper"]} />
         </div>
       </div>
 

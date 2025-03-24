@@ -72,7 +72,7 @@ export default function Harmony() {
         <div className={styles.solutionCard}>
           <h3>3. PROVIDE CLARITY AND CONFIDENCE</h3>
           <p>
-            Harmony provides clarity, helping caregivers feel confident and in control. With everything organized, it’s easier to handle changes and give care with peace of mind.
+            Harmony provides clarity, helping caregivers feel confident and in control. With everything organized, it&apos;s easier to handle changes and give care with peace of mind.
           </p>
         </div>
       </div>
@@ -147,7 +147,7 @@ export default function Harmony() {
         <h2 className={styles.aboutTitle}>Design</h2>
         <h3 className={styles.detailHeading}>User Flow</h3>
         <p className={styles.text}>
-          To ensure Harmony provides an intuitive experience that meets caregiving needs, a user flow was created to map key actions and decision points. This flow outlines the user's journey from onboarding to managing tasks, collaborating with teams, and accessing AI-powered assistance, optimizing the overall experience.
+          To ensure Harmony provides an intuitive experience that meets caregiving needs, a user flow was created to map key actions and decision points. This flow outlines the user&apos;s journey from onboarding to managing tasks, collaborating with teams, and accessing AI-powered assistance, optimizing the overall experience.
         </p>
         <div className={styles.iframeContainer}>
           <iframe
@@ -180,7 +180,7 @@ export default function Harmony() {
       <section className={styles.aboutContainer}>
         <h2 className={styles.aboutTitle}>Branding and Style Guide</h2>
         <p className={styles.text}>
-          Before high-fidelity execution, a style guide and visual identity were developed to ensure consistency and reflect Harmony’s core values of community, connection, and care. Drawing inspiration from minimal and functional design principles, the color palette emphasizes calm and balance, while the typography offers clarity and warmth. The design system focuses on reusable components and cohesive elements that create a seamless and intuitive user experience.
+          Before high-fidelity execution, a style guide and visual identity were developed to ensure consistency and reflect Harmony&apos;s core values of community, connection, and care. Drawing inspiration from minimal and functional design principles, the color palette emphasizes calm and balance, while the typography offers clarity and warmth. The design system focuses on reusable components and cohesive elements that create a seamless and intuitive user experience.
         </p>
         <div className={styles.styleguide}>
           <Image
@@ -204,7 +204,7 @@ export default function Harmony() {
       <section className={styles.aboutContainer}>
         <h2 className={styles.aboutTitle}>Final Design</h2>
         <p className={styles.text}>
-          The final design brings Harmony’s vision to life by combining functionality with an intuitive design. Every design element was carefully crafted to reflect the app’s core values of community, connection, and care. The result is a clean interface that simplifies caregiving tasks, fosters collaboration, and enhances the user experience with thoughtful, user-centric solutions.
+          The final design brings Harmony&apos;s vision to life by combining functionality with an intuitive design. Every design element was carefully crafted to reflect the app&apos;s core values of community, connection, and care. The result is a clean interface that simplifies caregiving tasks, fosters collaboration, and enhances the user experience with thoughtful, user-centric solutions.
         </p>
         <div className={styles.finalDesign}>
           <Image

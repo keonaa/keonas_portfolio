@@ -26,9 +26,8 @@ export default function Home() {
           <h2 className={styles.featuredProjectsTitle}>Featured Projects</h2>
           <div className={styles.cards}>
             <HarmonyCard />
-            <FizzleCard />
             <AdCampaignCard />
-            <MilkCard />
+            <FizzleCard />
           </div>
         </div>
       </section>
