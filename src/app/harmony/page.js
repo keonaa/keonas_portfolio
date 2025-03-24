@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Chips from "@/components/Chips";
+import MaterialsCarousel from "@/components/MaterialsCarousel";
+import HarmonyCarousel from "@/components/HarmonyCarousel";
 import styles from "@/styles/harmony.module.css";
 
 export default function Harmony() {
@@ -20,6 +22,16 @@ export default function Harmony() {
           height={400}
           className={styles.featuredImage}
         />
+      </div>
+      <div className={styles.link}>
+        <a
+          href="https://your-landing-page-url.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.viewLink}
+        >
+          View Harmony
+        </a>
       </div>
 
       {/* Overview Section */}
@@ -178,7 +190,7 @@ export default function Harmony() {
 
       {/* Branding and Style Guide */}
       <section className={styles.aboutContainer}>
-        <h2 className={styles.aboutTitle}>Branding and Style Guide</h2>
+        <h3 className={styles.detailHeading}>Branding and Style Guide</h3>
         <p className={styles.text}>
           Before high-fidelity execution, a style guide and visual identity were developed to ensure consistency and reflect Harmony&apos;s core values of community, connection, and care. Drawing inspiration from minimal and functional design principles, the color palette emphasizes calm and balance, while the typography offers clarity and warmth. The design system focuses on reusable components and cohesive elements that create a seamless and intuitive user experience.
         </p>
@@ -216,6 +228,62 @@ export default function Harmony() {
           />
         </div>
       </section>
+      {/*Promotional Materials */}
+      <section className={styles.aboutContainer}>
+        <h2 className={styles.aboutTitle}>Promotional Materials</h2>
+        <p className={styles.text}>
+        To effectively introduce Harmony to its audience, promotional materials were created across various platforms, including a landing page, social media presence, and printed assets. Each element was strategically designed to reach and engage caregivers, reflecting the app’s mission and core values.
+        </p>
+      </section>
+
+      {/* Printed Materials */}
+      <section className={styles.aboutContainer}>
+        <h3 className={styles.detailHeading}>Printed Materials</h3>
+        <p className={styles.text}>
+        Building on the promotional material designs, a range of printed collateral was developed to further elevate Harmony&rsquo;s presence. The materials, including brochures and posters, were designed to deliver key messaging in an accessible, clear, and impactful way.
+        </p>
+      </section>
+      <MaterialsCarousel />
+
+      {/* Landing Page */}
+      <section className={styles.aboutContainer}>
+        <h3 className={styles.detailHeading}>Landing Page</h3>
+  
+        <p className={styles.text}>
+          The landing page for Harmony is designed to be simple, user-friendly, and visually engaging, with the goal of providing an immediate introduction to the app, showcasing its core benefits, and building trust with the audience.
+        </p>
+        <div className={styles.centerLink}>
+        <a
+          href="https://your-landing-page-url.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.viewLink}
+        >
+          View Landing Page
+        </a>
+        </div>
+        <div className={styles.landingPage}>
+          <Image 
+            src="/images/harmony_landingPage.png"
+            alt="Landing page Image"
+            width={1418}
+            height={732}
+            className={styles.landingPageImage}
+          />
+        </div>
+      </section>
+
+      {/* Showcase */}
+      <section className={styles.aboutContainer}>
+        <h3 className={styles.detailHeading}>D3 / FSWD Annual Student Design & Technology Showcase</h3>
+        <p className={styles.text}>
+        On December 6th, 2024, the team had the opportunity to present Harmony at BCIT&rsquo;s Annual D3 / FSWD Student Design & Technology Showcase. The event highlights student projects that use innovative digital solutions, with a focus on leveraging Artificial Intelligence to address challenges faced by underrepresented communities and businesses.
+        </p>
+        <p className={styles.text}>
+        Out of 10 teams, Harmony placed second, receiving recognition for its impactful design and solution. The showcase was attended by influential members of the community, including the Mayor of Burnaby and his council, BCIT faculty, members of the Legislative Assembly, and key industry professionals.
+        </p>
+      </section>
+      <HarmonyCarousel />
     </section>
   );
 }

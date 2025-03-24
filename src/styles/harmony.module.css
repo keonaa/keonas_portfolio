@@ -306,3 +306,44 @@
   height: auto;
   object-fit: fill;
 }
+
+/* Landing Page */
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+.landingPageImage {
+  width: 100%;
+  border: solid var(--black) 1px;
+  border-radius: 5px;
+  height: auto;
+  object-fit: fill;
+}
+
+.centerLink {
+  display: flex;
+  justify-content: center;
+}
+
+.viewLink {
+  font-family: "UncutSans-Regular", sans-serif;
+  font-size: var(--body-size);
+  text-transform: uppercase;
+  color: var(--black);
+  text-decoration: none;
+  padding: 8px 20px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.viewLink:hover {
+  color: var(--purple);
+}
+
+.link {
+  display: flex;
+  justify-content: flex-start;
+}
