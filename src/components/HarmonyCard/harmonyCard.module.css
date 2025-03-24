@@ -62,14 +62,14 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex: 1;
-    max-width: 50%;
+    max-width: 35%;
     margin-left: 10px; 
 }
 
-.fizzleImage {
+.phoneImage {
     width: 100%;
-    height: auto;
-    max-width: 350px;
+    height: auto;   
+    max-width: 250px;
     margin: 0;
 }
 

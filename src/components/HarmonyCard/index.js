@@ -11,15 +11,16 @@ export default function HarmonyCard() {
         <div className={styles.cardContent}>
           <h2 className={styles.title}>Harmony</h2>
           <p className={styles.description}>
+            An AI-powered caregiving app designed to support caregivers by simplifying tasks, scheduling, and team collaboration
           </p>
         </div>
         <div className={styles.imageContainer}>
           <Image
-            src="/images/fizzle_cans.png"
+            src="/images/harmony_phoneMockup.png"
             alt="Harmony App"
-            width={350}
-            height={420}
-            className={styles.fizzleImage}
+            width={250}
+            height={320}
+            className={styles.phoneImage}
           />
         </div>
       </Link>
