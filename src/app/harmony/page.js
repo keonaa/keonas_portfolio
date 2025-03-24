@@ -25,7 +25,7 @@ export default function Harmony() {
       </div>
       <div className={styles.link}>
         <a
-          href="https://your-landing-page-url.com"
+          href="https://solid-app.fly.dev/api/auth/landing"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.viewLink}
@@ -254,7 +254,7 @@ export default function Harmony() {
         </p>
         <div className={styles.centerLink}>
         <a
-          href="https://your-landing-page-url.com"
+          href="https://harmony-landing-page-omega.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.viewLink}
