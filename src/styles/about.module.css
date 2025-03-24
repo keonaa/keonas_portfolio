@@ -1,3 +1,81 @@
-.about h2 {
-    font-family: "LibreCaslonCondensed-Medium", sans-serif;
+.aboutPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  margin-bottom: 100px;
+}
+
+/* Hero Section */
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.title {
+  font-family: "LibreCaslonCondensed-Medium", serif;
+  font-size: 4.5rem;
+  letter-spacing: -0.05em;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.chipGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+/* Bio Section (Image + Text Block) */
+.bioSection {
+  width: 100vw;
+  background-color: var(--purple);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 20px;
+  border-top: 1px solid var(--black);
+  border-bottom: 1px solid var(--black);
+}
+
+.imageContainer {
+  flex: 1;
+  max-width: 450px;
+  margin-right: 40px;
+}
+
+.aboutImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid var(--black);
+}
+
+/* Bio Text */
+.bioText {
+  flex: 3;
+  max-width: 700px;
+  color: white;
+  font-family: "UncutSans-Regular", sans-serif;
+  font-size: var(--body-size);
+  font-weight: 200;
+  line-height: 1.8;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.bioText h5 {
+  font-size: var(--h4-size);
+  font-family: "UncutSans-Regular", sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin: 0;
 }
