@@ -12,6 +12,7 @@
     align-items: center;
     text-align: center;
     margin-bottom: 40px;
+    border: solid red 1px;
 }
 
 .title {

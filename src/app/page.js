@@ -3,6 +3,7 @@ import AdCampaignCard from "../components/AdCampaignCard";
 import MilkCard from "@/components/Milk";
 import Hero from "../components/Hero";
 import styles from "../styles/page.module.css";
+import HarmonyCard from "@/components/HarmonyCard";
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
         <div className={styles.featuredProjectsContent}>
           <h2 className={styles.featuredProjectsTitle}>Featured Projects</h2>
           <div className={styles.cards}>
+            <HarmonyCard />
             <FizzleCard />
             <AdCampaignCard />
             <MilkCard />
