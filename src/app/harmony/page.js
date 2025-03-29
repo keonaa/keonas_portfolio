@@ -1,4 +1,4 @@
-import Image from "next/image";
+  import Image from "next/image";
 import Chips from "@/components/Chips";
 import MaterialsCarousel from "@/components/MaterialsCarousel";
 import HarmonyCarousel from "@/components/HarmonyCarousel";
