@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Chips from "@/components/Chips";
 import styles from "@/styles/about.module.css";
+import FAQSection from "@/components/FAQ/FAQSection";
 
 export default function AboutPage() {
   return (
@@ -34,6 +35,7 @@ export default function AboutPage() {
           </p>
         </div>
       </div>
+      <FAQSection />
     </section>
   );
 }
